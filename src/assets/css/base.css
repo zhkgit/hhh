@@ -5,10 +5,12 @@
   --color-text: #666;
   --color-high-text: #ff5777;
   --color-tint: #ff8198;
-  --color-background: #fff;
-  --font-size: 14px;
+  --color-background: #eeeeee;
+  --font-size: 12px;
   /* --line-height: 1.5; */
-  --line-height: 15;
+  --line-height: 2;
+
+  color: #eeeeee;
 }
 
 *,
