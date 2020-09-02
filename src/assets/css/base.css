@@ -3,14 +3,13 @@
 /*:root -> 获取根元素html*/
 :root {
   --color-text: #666;
-  --color-high-text: #ff5777;
   --color-tint: #ff8198;
-  --color-background: #eeeeee;
-  --font-size: 12px;
+  --color-background: #f0f0f0;
+  --font-size: 15px;
   /* --line-height: 1.5; */
-  --line-height: 2;
+  --line-height: 33;
+  font-size:45px;
 
-  color: #eeeeee;
 }
 
 *,
