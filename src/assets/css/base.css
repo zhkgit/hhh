@@ -45,6 +45,7 @@ a {
 
 .clear-fix::after {
   clear: both;
+  position:red;
   content: '';
   display: block;
   width: 0;
