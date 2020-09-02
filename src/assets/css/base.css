@@ -15,6 +15,7 @@
 *,
 *::before,
 *::after {
+
   margin: 10;
   display:flex;
   padding: 0;
@@ -44,7 +45,26 @@ a {
   width: 0;
   height: 0;
   visibility: hidden;
+  
 }
+
+/**/
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+
+.clear-fix::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  
+}
+/**/
 
 .clear-fix {
   zoom: 1;
