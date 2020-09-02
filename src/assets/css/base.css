@@ -16,7 +16,7 @@
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin: 222;
   padding: 0;
   box-sizing: border-box;
 }
@@ -44,7 +44,26 @@ a {
   width: 0;
   height: 0;
   visibility: hidden;
+  
 }
+
+/**/
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+
+.clear-fix::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  
+}
+/**/
 
 .clear-fix {
   zoom: 1;
